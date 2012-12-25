@@ -18,6 +18,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
+    /* here */
+    ImageSwitcher *myImageSwitcher = [[ImageSwitcher alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 50)];
+    [self.view addSubview:myImageSwitcher];
 }
 
 - (void)viewDidUnload

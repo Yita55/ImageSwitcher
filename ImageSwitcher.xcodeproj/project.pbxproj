@@ -21,6 +21,10 @@
 		76FD2EE415B3B57F005135DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FD2EC215B3B57F005135DD /* Foundation.framework */; };
 		76FD2EEC15B3B57F005135DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76FD2EEA15B3B57F005135DD /* InfoPlist.strings */; };
 		76FD2EEF15B3B57F005135DD /* ImageSwitcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FD2EEE15B3B57F005135DD /* ImageSwitcherTests.m */; };
+		76FD2EFA15B3B5B4005135DD /* ImageSwitcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FD2EF915B3B5B4005135DD /* ImageSwitcher.m */; };
+		76FD2EFE15B3BBDF005135DD /* twitter.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 76FD2EFB15B3BBDF005135DD /* twitter.jpeg */; };
+		76FD2EFF15B3BBDF005135DD /* facebook.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 76FD2EFC15B3BBDF005135DD /* facebook.jpeg */; };
+		76FD2F0015B3BBDF005135DD /* google.png in Resources */ = {isa = PBXBuildFile; fileRef = 76FD2EFD15B3BBDF005135DD /* google.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +42,27 @@
 		76FD2EC015B3B57F005135DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		76FD2EC215B3B57F005135DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		76FD2EC415B3B57F005135DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		76FD2EC815B3B57F005135DD /* ImageSwitcher-Info.plist */ = {isa = PBXFileReference; path = "ImageSwitcher-Info.plist"; sourceTree = "<group>"; };
+		76FD2EC815B3B57F005135DD /* ImageSwitcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageSwitcher-Info.plist"; sourceTree = "<group>"; };
 		76FD2ECA15B3B57F005135DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		76FD2ECC15B3B57F005135DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		76FD2ECE15B3B57F005135DD /* ImageSwitcher-Prefix.pch */ = {isa = PBXFileReference; path = "ImageSwitcher-Prefix.pch"; sourceTree = "<group>"; };
-		76FD2ECF15B3B57F005135DD /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		76FD2ECE15B3B57F005135DD /* ImageSwitcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageSwitcher-Prefix.pch"; sourceTree = "<group>"; };
+		76FD2ECF15B3B57F005135DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		76FD2ED015B3B57F005135DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		76FD2ED315B3B57F005135DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		76FD2ED615B3B57F005135DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		76FD2ED815B3B57F005135DD /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		76FD2ED815B3B57F005135DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		76FD2ED915B3B57F005135DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		76FD2EE015B3B57F005135DD /* ImageSwitcherTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageSwitcherTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76FD2EE115B3B57F005135DD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		76FD2EE915B3B57F005135DD /* ImageSwitcherTests-Info.plist */ = {isa = PBXFileReference; path = "ImageSwitcherTests-Info.plist"; sourceTree = "<group>"; };
+		76FD2EE915B3B57F005135DD /* ImageSwitcherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageSwitcherTests-Info.plist"; sourceTree = "<group>"; };
 		76FD2EEB15B3B57F005135DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		76FD2EED15B3B57F005135DD /* ImageSwitcherTests.h */ = {isa = PBXFileReference; path = ImageSwitcherTests.h; sourceTree = "<group>"; };
+		76FD2EED15B3B57F005135DD /* ImageSwitcherTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageSwitcherTests.h; sourceTree = "<group>"; };
 		76FD2EEE15B3B57F005135DD /* ImageSwitcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageSwitcherTests.m; sourceTree = "<group>"; };
+		76FD2EF815B3B5B4005135DD /* ImageSwitcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageSwitcher.h; sourceTree = "<group>"; };
+		76FD2EF915B3B5B4005135DD /* ImageSwitcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageSwitcher.m; sourceTree = "<group>"; };
+		76FD2EFB15B3BBDF005135DD /* twitter.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twitter.jpeg; sourceTree = "<group>"; };
+		76FD2EFC15B3BBDF005135DD /* facebook.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = facebook.jpeg; sourceTree = "<group>"; };
+		76FD2EFD15B3BBDF005135DD /* google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +128,11 @@
 				76FD2ED515B3B57F005135DD /* MainStoryboard_iPad.storyboard */,
 				76FD2ED815B3B57F005135DD /* ViewController.h */,
 				76FD2ED915B3B57F005135DD /* ViewController.m */,
+				76FD2EF815B3B5B4005135DD /* ImageSwitcher.h */,
+				76FD2EF915B3B5B4005135DD /* ImageSwitcher.m */,
+				76FD2EFB15B3BBDF005135DD /* twitter.jpeg */,
+				76FD2EFC15B3BBDF005135DD /* facebook.jpeg */,
+				76FD2EFD15B3BBDF005135DD /* google.png */,
 				76FD2EC715B3B57F005135DD /* Supporting Files */,
 			);
 			path = ImageSwitcher;
@@ -227,6 +241,9 @@
 				76FD2ECB15B3B57F005135DD /* InfoPlist.strings in Resources */,
 				76FD2ED415B3B57F005135DD /* MainStoryboard_iPhone.storyboard in Resources */,
 				76FD2ED715B3B57F005135DD /* MainStoryboard_iPad.storyboard in Resources */,
+				76FD2EFE15B3BBDF005135DD /* twitter.jpeg in Resources */,
+				76FD2EFF15B3BBDF005135DD /* facebook.jpeg in Resources */,
+				76FD2F0015B3BBDF005135DD /* google.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +281,7 @@
 				76FD2ECD15B3B57F005135DD /* main.m in Sources */,
 				76FD2ED115B3B57F005135DD /* AppDelegate.m in Sources */,
 				76FD2EDA15B3B57F005135DD /* ViewController.m in Sources */,
+				76FD2EFA15B3B5B4005135DD /* ImageSwitcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +392,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ImageSwitcher/ImageSwitcher-Prefix.pch";
 				INFOPLIST_FILE = "ImageSwitcher/ImageSwitcher-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -385,6 +404,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ImageSwitcher/ImageSwitcher-Prefix.pch";
 				INFOPLIST_FILE = "ImageSwitcher/ImageSwitcher-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -443,6 +463,7 @@
 				76FD2EF415B3B57F005135DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76FD2EF515B3B57F005135DD /* Build configuration list for PBXNativeTarget "ImageSwitcherTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +472,7 @@
 				76FD2EF715B3B57F005135DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

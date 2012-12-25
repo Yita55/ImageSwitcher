@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ImageSwitcher.h
 //  ImageSwitcher
 //
 //  Created by Isken Huang on 7/16/12.
@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ImageSwitcher.h"
 
+@interface ImageSwitcher : UIView{
+    NSTimer *myTimer;
+    int currentAD;
+}
 
-@interface ViewController : UIViewController
+@property (nonatomic, retain) NSMutableArray *dataArray;
 
 @end
